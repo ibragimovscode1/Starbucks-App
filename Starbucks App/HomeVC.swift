@@ -11,11 +11,14 @@ class HomeVC: StarBucksVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Home"
+       setupNavBar()
         setTabBarImage(imageName: "house.fill", title: "Home")
         
         
         
+    }
+    func setupNavBar() {
+        navigationController?.navigationBar.topItem?.title = "Good Afternoon John 🌤"
     }
 
 

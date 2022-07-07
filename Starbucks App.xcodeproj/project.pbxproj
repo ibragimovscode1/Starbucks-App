@@ -11,6 +11,7 @@
 		527EAF2B2876DAE400D3DF47 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EAF2A2876DAE400D3DF47 /* HomeVC.swift */; };
 		527EAF302876DAE700D3DF47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527EAF2F2876DAE700D3DF47 /* Assets.xcassets */; };
 		527EAF332876DAE700D3DF47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527EAF312876DAE700D3DF47 /* LaunchScreen.storyboard */; };
+		527EAF3C2876FA5F00D3DF47 /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EAF3B2876FA5F00D3DF47 /* Factories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		527EAF2F2876DAE700D3DF47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		527EAF322876DAE700D3DF47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		527EAF342876DAE700D3DF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527EAF3B2876FA5F00D3DF47 /* Factories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 		527EAF1A2876DAE400D3DF47 = {
 			isa = PBXGroup;
 			children = (
+				527EAF3B2876FA5F00D3DF47 /* Factories.swift */,
 				527EAF3A2876DB0300D3DF47 /* Files */,
 				527EAF252876DAE400D3DF47 /* Starbucks App */,
 				527EAF242876DAE400D3DF47 /* Products */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527EAF3C2876FA5F00D3DF47 /* Factories.swift in Sources */,
 				527EAF2B2876DAE400D3DF47 /* HomeVC.swift in Sources */,
 				527EAF272876DAE400D3DF47 /* AppDelegate.swift in Sources */,
 			);
