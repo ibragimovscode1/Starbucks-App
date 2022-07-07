@@ -11,6 +11,7 @@ class HomeVC: StarBucksVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Home"
         setTabBarImage(imageName: "house.fill", title: "Home")
         
         
