@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeVC.swift
 //  Starbucks App
 //
 //  Created by Rahmetullah on 7.07.2022.
@@ -7,11 +7,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeVC: StarBucksVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setTabBarImage(imageName: "house.fill", title: "Home")
+        
+        
+        
     }
 
 

@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		527EAF272876DAE400D3DF47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EAF262876DAE400D3DF47 /* AppDelegate.swift */; };
-		527EAF292876DAE400D3DF47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EAF282876DAE400D3DF47 /* SceneDelegate.swift */; };
-		527EAF2B2876DAE400D3DF47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EAF2A2876DAE400D3DF47 /* ViewController.swift */; };
-		527EAF2E2876DAE400D3DF47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527EAF2C2876DAE400D3DF47 /* Main.storyboard */; };
+		527EAF2B2876DAE400D3DF47 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EAF2A2876DAE400D3DF47 /* HomeVC.swift */; };
 		527EAF302876DAE700D3DF47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527EAF2F2876DAE700D3DF47 /* Assets.xcassets */; };
 		527EAF332876DAE700D3DF47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527EAF312876DAE700D3DF47 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		527EAF232876DAE400D3DF47 /* Starbucks App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Starbucks App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		527EAF262876DAE400D3DF47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		527EAF282876DAE400D3DF47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		527EAF2A2876DAE400D3DF47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		527EAF2D2876DAE400D3DF47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		527EAF2A2876DAE400D3DF47 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		527EAF2F2876DAE700D3DF47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		527EAF322876DAE700D3DF47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		527EAF342876DAE700D3DF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +36,7 @@
 		527EAF1A2876DAE400D3DF47 = {
 			isa = PBXGroup;
 			children = (
+				527EAF3A2876DB0300D3DF47 /* Files */,
 				527EAF252876DAE400D3DF47 /* Starbucks App */,
 				527EAF242876DAE400D3DF47 /* Products */,
 			);
@@ -57,14 +54,19 @@
 			isa = PBXGroup;
 			children = (
 				527EAF262876DAE400D3DF47 /* AppDelegate.swift */,
-				527EAF282876DAE400D3DF47 /* SceneDelegate.swift */,
-				527EAF2A2876DAE400D3DF47 /* ViewController.swift */,
-				527EAF2C2876DAE400D3DF47 /* Main.storyboard */,
+				527EAF2A2876DAE400D3DF47 /* HomeVC.swift */,
+			);
+			path = "Starbucks App";
+			sourceTree = "<group>";
+		};
+		527EAF3A2876DB0300D3DF47 /* Files */ = {
+			isa = PBXGroup;
+			children = (
 				527EAF2F2876DAE700D3DF47 /* Assets.xcassets */,
 				527EAF312876DAE700D3DF47 /* LaunchScreen.storyboard */,
 				527EAF342876DAE700D3DF47 /* Info.plist */,
 			);
-			path = "Starbucks App";
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +129,6 @@
 			files = (
 				527EAF332876DAE700D3DF47 /* LaunchScreen.storyboard in Resources */,
 				527EAF302876DAE700D3DF47 /* Assets.xcassets in Resources */,
-				527EAF2E2876DAE400D3DF47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +139,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				527EAF2B2876DAE400D3DF47 /* ViewController.swift in Sources */,
+				527EAF2B2876DAE400D3DF47 /* HomeVC.swift in Sources */,
 				527EAF272876DAE400D3DF47 /* AppDelegate.swift in Sources */,
-				527EAF292876DAE400D3DF47 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		527EAF2C2876DAE400D3DF47 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				527EAF2D2876DAE400D3DF47 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		527EAF312876DAE700D3DF47 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,7 +285,6 @@
 				INFOPLIST_FILE = "Starbucks App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +311,6 @@
 				INFOPLIST_FILE = "Starbucks App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
