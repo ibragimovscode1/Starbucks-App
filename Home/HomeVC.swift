@@ -15,7 +15,7 @@ class HomeVC: StarBucksVC {
     var headerViewTopConstraint: NSLayoutConstraint?
     let cellID = "cellId"
     let tiles = [
-        RewardTileVC(),
+        RewardsTileVC(),
         TileVC(title: "Breakfast made meatless", subtitle: "Try the Beyond Meat, Cheddar & Egg Breakfast Sandwich. Vegetraian and protein-packed.", imageName: "meatless"),
         TileVC(title: "Uplifting our communities", subtitle: "Thanks to our partners' nominations, The Starbucks Foundation is donating $145K to more than 50 local charities.", imageName: "communities"),
         TileVC(title: "Spend at least $15 for 50 Bonus stars", subtitle: "Collect 50 Bonus Stars when you spend at least $15 pre-tax.", imageName: "bonus"),

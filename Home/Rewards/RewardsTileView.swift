@@ -6,7 +6,7 @@
 //
 
 import UIKit
-class RewardTileView: UIView {
+class RewardsTileView: UIView {
     
     let balanceView = BalanceView()
     let rewardsButton = UIButton()
@@ -31,7 +31,7 @@ class RewardTileView: UIView {
     
 }
 
-extension RewardTileView {
+extension RewardsTileView {
     func style() {
         balanceView.translatesAutoresizingMaskIntoConstraints = false
         rewardsGraphView.translatesAutoresizingMaskIntoConstraints = false
