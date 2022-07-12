@@ -25,6 +25,7 @@ class HomeHeaderView: UIView {
 }
 extension HomeHeaderView {
     func style() {
+        backgroundColor = .backgroundWhite
         welcomeLabel.translatesAutoresizingMaskIntoConstraints = false
         welcomeLabel.font = UIFont.preferredFont(forTextStyle: .largeTitle)
         welcomeLabel.text = "Good Afternoon John 🌤"
