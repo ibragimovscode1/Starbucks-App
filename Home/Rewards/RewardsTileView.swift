@@ -43,6 +43,7 @@ extension RewardsTileView {
         
         
         detailsButton.titleLabel?.text = "Details"
+        detailsButton.addTarget(self, action: #selector(detailsButtonTapped), for: .primaryActionTriggered)
         
         
         
