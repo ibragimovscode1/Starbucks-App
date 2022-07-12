@@ -105,5 +105,10 @@ extension RewardTileView {
         
         ])
     }
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        rewardsGraphView.actualFrameWidth = frame.width
+        rewardsGraphView.drawRewardsGraph()
+    }
 }
 
