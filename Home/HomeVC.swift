@@ -51,6 +51,7 @@ extension HomeVC {
         headerView.backgroundColor = .white
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         stackView.translatesAutoresizingMaskIntoConstraints = false
+        view.backgroundColor = .backgroundWhite
         stackView.axis = .vertical
         stackView.spacing = 8
         
