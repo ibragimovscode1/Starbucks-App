@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5234B2CB287DC7B00040BBB6 /* RewardsGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234B2CA287DC7B00040BBB6 /* RewardsGraphView.swift */; };
 		5234B2CE287DCD0A0040BBB6 /* StarAndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234B2CD287DCD0A0040BBB6 /* StarAndPoints.swift */; };
+		5234B2D0287DCF4C0040BBB6 /* StarRewardsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234B2CF287DCF4C0040BBB6 /* StarRewardsRow.swift */; };
 		527EAF272876DAE400D3DF47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EAF262876DAE400D3DF47 /* AppDelegate.swift */; };
 		527EAF2B2876DAE400D3DF47 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EAF2A2876DAE400D3DF47 /* HomeVC.swift */; };
 		527EAF302876DAE700D3DF47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527EAF2F2876DAE700D3DF47 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		5234B2CA287DC7B00040BBB6 /* RewardsGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsGraphView.swift; sourceTree = "<group>"; };
 		5234B2CD287DCD0A0040BBB6 /* StarAndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarAndPoints.swift; sourceTree = "<group>"; };
+		5234B2CF287DCF4C0040BBB6 /* StarRewardsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRewardsRow.swift; sourceTree = "<group>"; };
 		527EAF232876DAE400D3DF47 /* Starbucks App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Starbucks App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		527EAF262876DAE400D3DF47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		527EAF2A2876DAE400D3DF47 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				5234B2CD287DCD0A0040BBB6 /* StarAndPoints.swift */,
+				5234B2CF287DCF4C0040BBB6 /* StarRewardsRow.swift */,
 			);
 			path = StarRewards;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				5234B2CE287DCD0A0040BBB6 /* StarAndPoints.swift in Sources */,
 				527EAF4528776A9D00D3DF47 /* TileView.swift in Sources */,
 				527EAF3C2876FA5F00D3DF47 /* Factories.swift in Sources */,
+				5234B2D0287DCF4C0040BBB6 /* StarRewardsRow.swift in Sources */,
 				527EAF2B2876DAE400D3DF47 /* HomeVC.swift in Sources */,
 				527EAF4128774EA700D3DF47 /* PlaceholderVC.swift in Sources */,
 				52A8C48E28789AF700557230 /* RewardsTileVC.swift in Sources */,
