@@ -11,3 +11,5 @@ The Starbucks app is made up for various view controllers, each containing their
 
 ![](https://user-images.githubusercontent.com/89012665/178704528-42ec54a5-ff80-41b5-bfeb-9d13a64a1510.png)
 ![high-level-architecture2](https://user-images.githubusercontent.com/89012665/178704762-4f77a5a3-457d-45ec-9a77-46d3b026fdc5.png)
+# Technologies, Features
+
