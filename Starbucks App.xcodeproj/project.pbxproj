@@ -11,6 +11,8 @@
 		5234B2CE287DCD0A0040BBB6 /* StarAndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234B2CD287DCD0A0040BBB6 /* StarAndPoints.swift */; };
 		5234B2D0287DCF4C0040BBB6 /* StarRewardsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234B2CF287DCF4C0040BBB6 /* StarRewardsRow.swift */; };
 		5234B2D2287DD1860040BBB6 /* StarRewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234B2D1287DD1860040BBB6 /* StarRewardsView.swift */; };
+		5234B2D5287EC5130040BBB6 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234B2D4287EC5130040BBB6 /* HistoryViewController.swift */; };
+		5234B2D7287EC5E40040BBB6 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234B2D6287EC5E40040BBB6 /* HistoryViewModel.swift */; };
 		527EAF272876DAE400D3DF47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EAF262876DAE400D3DF47 /* AppDelegate.swift */; };
 		527EAF2B2876DAE400D3DF47 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527EAF2A2876DAE400D3DF47 /* HomeVC.swift */; };
 		527EAF302876DAE700D3DF47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527EAF2F2876DAE700D3DF47 /* Assets.xcassets */; };
@@ -30,6 +32,8 @@
 		5234B2CD287DCD0A0040BBB6 /* StarAndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarAndPoints.swift; sourceTree = "<group>"; };
 		5234B2CF287DCF4C0040BBB6 /* StarRewardsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRewardsRow.swift; sourceTree = "<group>"; };
 		5234B2D1287DD1860040BBB6 /* StarRewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRewardsView.swift; sourceTree = "<group>"; };
+		5234B2D4287EC5130040BBB6 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		5234B2D6287EC5E40040BBB6 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
 		527EAF232876DAE400D3DF47 /* Starbucks App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Starbucks App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		527EAF262876DAE400D3DF47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		527EAF2A2876DAE400D3DF47 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -67,9 +71,19 @@
 			path = StarRewards;
 			sourceTree = "<group>";
 		};
+		5234B2D3287EC4DD0040BBB6 /* HistoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				5234B2D4287EC5130040BBB6 /* HistoryViewController.swift */,
+				5234B2D6287EC5E40040BBB6 /* HistoryViewModel.swift */,
+			);
+			path = HistoryVC;
+			sourceTree = "<group>";
+		};
 		527EAF1A2876DAE400D3DF47 = {
 			isa = PBXGroup;
 			children = (
+				5234B2D3287EC4DD0040BBB6 /* HistoryVC */,
 				5234B2CC287DCCD90040BBB6 /* StarRewards */,
 				527EAF252876DAE400D3DF47 /* Starbucks App */,
 				527EAF3B2876FA5F00D3DF47 /* Factories.swift */,
@@ -203,6 +217,7 @@
 				5234B2CB287DC7B00040BBB6 /* RewardsGraphView.swift in Sources */,
 				527EAF3F2876FC9200D3DF47 /* HomeHeaderView.swift in Sources */,
 				52A8C4922878C6B600557230 /* BalanceView.swift in Sources */,
+				5234B2D5287EC5130040BBB6 /* HistoryViewController.swift in Sources */,
 				52A8C49028789B0600557230 /* RewardsTileView.swift in Sources */,
 				5234B2CE287DCD0A0040BBB6 /* StarAndPoints.swift in Sources */,
 				527EAF4528776A9D00D3DF47 /* TileView.swift in Sources */,
@@ -214,6 +229,7 @@
 				5234B2D2287DD1860040BBB6 /* StarRewardsView.swift in Sources */,
 				527EAF4328776A1000D3DF47 /* TileVC.swift in Sources */,
 				527EAF272876DAE400D3DF47 /* AppDelegate.swift in Sources */,
+				5234B2D7287EC5E40040BBB6 /* HistoryViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -107,10 +107,7 @@ extension HomeVC {
             scanButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -16),
             scanButton.widthAnchor.constraint(equalToConstant: ScanButtonSpacing.width),
             scanButton.heightAnchor.constraint(equalToConstant: ScanButtonSpacing.height)
-            
-            
-        
-        ])
+            ])
         
     }
 }
