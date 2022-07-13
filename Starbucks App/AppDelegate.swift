@@ -87,6 +87,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let orderVC = OrderVC()
         let giftVC = GiftVC()
         let storeVC = StoresVC()
+        let historyVC = HistoryViewController()
         
        
         let scanNC = UINavigationController(rootViewController: scanVC)
@@ -100,7 +101,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         tabBarController.tabBar.tintColor = .lightGreen
         tabBarController.tabBar.isTranslucent = false
         
-        window?.rootViewController = tabBarController
+        window?.rootViewController = historyVC
         
        
         return true
